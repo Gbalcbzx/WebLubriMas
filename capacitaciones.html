@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LubriMas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/lubriMasLogo.jpg" type="image/x-icon" />
+    <style>
+      /* Asegura que las imágenes no sean tan grandes */
+      .img-fluid-equal {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      /* Ajustes de texto para centrar */
+      .capacitacion-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .capacitacion-text {
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .capacitacion-container {
+        margin-top: 40px;
+      }
+
+      /* Personalización de los testimonios */
+      blockquote {
+        font-style: italic;
+        font-size: 1.2rem;
+        border-left: 5px solid #007bff;
+        padding-left: 20px;
+        margin-bottom: 40px;
+      }
+
+      .testimonios {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 8px;
+      }
+
+      /* Mejora de tabla de fechas */
+      table {
+        margin-top: 30px;
+        width: 100%;
+      }
+
+      table th, table td {
+        text-align: center;
+        padding: 15px;
+      }
+
+      /* Mejorar diseño de botones de inscripción */
+      .btn-inscripcion {
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        padding: 8px 15px; /* Botones más pequeños */
+        border-radius: 5px;
+        font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+      }
+
+      .btn-inscripcion:hover {
+        background-color: #0056b3;
+      }
+
+      /* Estilo adicional para el botón en la tabla */
+      .btn-inscripcion-sm {
+        padding: 5px 10px; /* Tamaño más pequeño */
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ml-5">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/lubriMasLogo.jpg" alt="Logo" height="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-link-1 active" aria-current="page" href="index.html"
+                >Nuestros Productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-3" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-5" href="capacitaciones.html">Capacitaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-4" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      class="tm-hero d-flex justify-content-center align-items-center"
+      data-parallax="scroll"
+      data-image-src="img/lubricantes_de_acero.jpg"
+    >
+      <div class="overlay"></div>
+      <!-- Panel oscuro -->
+      <div class="hero-content text-center">
+        <h1 class="subtitulo">
+          <span class="text-lubri">LUBRI</span><span class="text-mas">MAS</span>
+        </h1>
+        <p class="slogan">POTENCIA Y PROTECCIÓN PARA TU MAQUINARIA</p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid tm-container-content tm-mt-60">
+      <div class="row mb-4 text-center">
+        <h2 class="col-12 tm-text-primary sub">Capacitaciones</h2>
+      </div>
+
+      <div class="container-fluid capacitacion-container">
+        <p class="text-center mb-5">En LubriMas, ofrecemos una variedad de capacitaciones diseñadas para mejorar el conocimiento técnico y práctico de los profesionales del sector. Nuestros cursos están enfocados en proporcionar las herramientas necesarias para un manejo eficiente de lubricantes y optimización de maquinaria.</p>
+    
+        <div class="row text-center">
+            <!-- Curso 1 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="img/curso1.png" class="img-fluid mb-3 img-fluid-equal" alt="Curso de Lubricación Industrial">
+                <h3 class="capacitacion-title">Curso de Lubricación Industrial</h3>
+                <p class="capacitacion-text">Duración: 2 días</p>
+                <p class="capacitacion-text">Aprende los principios básicos de la lubricación en maquinaria industrial, identificando los tipos de lubricantes y cómo aplicarlos adecuadamente.</p>
+            </div>
+            <!-- Curso 2 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="img/curso2.png" class="img-fluid mb-3 img-fluid-equal" alt="Mantenimiento Preventivo de Maquinaria">
+                <h3 class="capacitacion-title">Mantenimiento Preventivo de Maquinaria</h3>
+                <p class="capacitacion-text">Duración: 3 días</p>
+                <p class="capacitacion-text">Capacitación para entender los procedimientos de mantenimiento preventivo y cómo elegir el lubricante adecuado para prolongar la vida útil de tus equipos.</p>
+            </div>
+            <!-- Curso 3 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="img/curso3.png" class="img-fluid mb-3 img-fluid-equal" alt="Capacitación en Seguridad Industrial">
+                <h3 class="capacitacion-title">Capacitación en Seguridad Industrial</h3>
+                <p class="capacitacion-text">Duración: 1 día</p>
+                <p class="capacitacion-text">Aprende sobre las normativas de seguridad y el manejo seguro de lubricantes y productos relacionados.</p>
+            </div>
+        </div>
+    
+        <h3 class="tm-text-primary text-center mb-5">Testimonios</h3>
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="testimonios">
+                    <blockquote>
+                        <p>"Gracias a la capacitación en lubricación industrial, ahora entiendo mucho mejor cómo seleccionar y aplicar los lubricantes adecuados para cada máquina. ¡Una experiencia muy valiosa!"</p>
+                        <footer class="blockquote-footer">Carlos Méndez, Ingeniero de Mantenimiento</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    
+        <h3 class="tm-text-primary text-center mb-5">Próximas Fechas</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Fecha</th>
+                    <th>Inscripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Curso de Lubricación Industrial</td>
+                    <td>15-17 Enero</td>
+                    <td><a href="#" class="btn-inscripcion btn-inscripcion-sm">Inscríbete Aquí</a></td>
+                </tr>
+                <tr>
+                    <td>Mantenimiento Preventivo de Maquinaria</td>
+                    <td>20-22 Febrero</td>
+                    <td><a href="#" class="btn-inscripcion btn-inscripcion-sm">Inscríbete Aquí</a></td>
+                </tr>
+                <tr>
+                    <td>Capacitación en Seguridad Industrial</td>
+                    <td>10 Marzo</td>
+                    <td><a href="#" class="btn-inscripcion btn-inscripcion-sm">Inscríbete Aquí</a></td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+      <div class="container-fluid tm-container-small">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+            <h3 class="footertitulo">
+              <span class="text-lubri">LUBRI</span><span class="text-mas">MAS</span>
+            </h3>
+            <p>
+              En <strong>LUBRIMAS</strong> ofrecemos una amplia gama de
+              lubricantes de alta calidad para todo tipo de maquinaria y
+              vehículos. Nuestro objetivo es garantizar el máximo rendimiento y
+              la protección de tus equipos, asegurando una larga vida útil.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+            <h3 class="tm-text-primary mb-4 tm-footer-title">Enlaces Rápidos</h3>
+            <ul class="tm-footer-links pl-0">
+              <li><a href="about.html">Sobre Nosotros</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+            <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+              <li class="mb-2">
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="mb-2">
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="mb-2">
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="mb-2">
+                <a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a>
+              </li>
+            </ul>
+            <a href="#" class="tm-text-gray text-right d-block mb-2">Terms of Use</a>
+            <a href="#" class="tm-text-gray text-right d-block">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+            Copyright 2020 LubriMas Company. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/plugins.js"></script>
+    <script>
+      $(window).on("load", function () {
+        $("body").addClass("loaded");
+      });
+    </script>
+  </body>
+</html>
